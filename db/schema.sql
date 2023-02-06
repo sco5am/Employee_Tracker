@@ -17,8 +17,8 @@ CREATE TABLE role (
 
 CREATE TABLE employee (
     id INT PRIMARY KEY,
-    first_name VARCHAR(30),
-    last_name VARCHAR(30),
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
     role_id INT,
     manager_id INT
 );
