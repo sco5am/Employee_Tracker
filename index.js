@@ -14,7 +14,6 @@ db.connect(function (err) {
       throw err;
     }
     console.log("Connected to Database");
-    // Function call to initialize app
     init();
   });
   
