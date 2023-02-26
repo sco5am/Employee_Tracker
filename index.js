@@ -6,7 +6,7 @@ const { promisify } = require("util");
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "dns3661",
+  password: "",
   database: "employee_db",
 });
 db.connect(function (err) {
